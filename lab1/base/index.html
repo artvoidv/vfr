@@ -1,0 +1,90 @@
+<!-- Вариант 8 -->
+<!DOCTYPE html>
+<html>
+<style>
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: black;
+    color: white;
+}
+a:visited {
+    color:inherit;
+}
+hr {
+    border: 0.5px solid;
+}
+p {
+    margin: 10px 0px;
+}
+h1 {
+    margin: 10px
+}
+ol, ul {
+    list-style-position: inside; 
+}
+ul, ul li { list-style-type: disc; }
+h1 {
+    font-weight: normal;
+}
+article, section {
+    margin: 10px;
+    padding: 10px;
+}
+section {
+    background-color: #070607;
+}
+article {
+    background-color: #121013;
+}
+.inline {
+    display: inline;
+}
+.embeddedlist {
+    list-style-position: outside;
+    margin-left: 25px;
+}
+.info {
+    margin-top: 5px;
+}
+.info li{
+    background-color: #201c1d;
+}
+</style>
+<head>
+    <title>Любимая игра</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+    <section>
+        <h1><strong>Любимая игра</strong></h1>
+        <article>
+            <h2>Taisei Project</h2>
+            <img src="taisei.jpg" alt="изображение игры taisei project" width="300">
+            <hr>
+            <ul class="info">
+                <li>
+                    <h3 class="inline">Жанр</h3>
+                    <p><em>bullet hell</em></p>
+                    <p>Этот жанр игр характерен тем, что игрок должен уварачиваться от множества снарядов(<em>bullet</em> из названия)</p>
+                </li>
+                <li>
+                    <h3 class="inline">Разработка</h3>
+                    <p>У игры полностью открытый исходный код <a href="https://taisei-project.org/code"><em>repo</em></a></p>
+                    <p>Игра написана на языке C (стандарт C11) и использует SDL3 и OpenGL</p>
+                </li>
+                <li>
+                    <h3 class="inline">Факты</h3>
+                    <ol>
+                        <li class="embeddedlist"><p>Taisei Project - это фан-игра по вселенной <a href="">Tōhō Project</a>, из-за чего в игре есть персонажи от туда</p></li>
+                        <li class="embeddedlist"><p>Игра запускается на большенстве unix-like системах</p></li>
+                    </ol>
+                </li>
+            </ul>
+        </article>
+    </section>
+</main>
+</body>
+</html>

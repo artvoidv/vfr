@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+<style>
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: black;
+    color: white;
+}
+a:visited {
+    color:inherit;
+}
+p {
+    margin: 10px 0px;
+}
+h1 {
+    font-weight: normal;
+}
+h4 {
+    margin-bottom: 5px;
+}
+ol, ul, li {
+    list-style-position: inside; 
+}
+ul, ul li {
+    list-style-type: disc;
+}
+.nav, .nav li {
+    background-color: #121013;
+    color: white;
+    list-style: none;
+    margin: 0;
+}
+nav {
+    float: left;
+    width: 120px;
+}
+main {
+    padding: 5px;
+    margin-left: 120px;
+    padding-bottom: 0px;
+    background-color: #1a181c;
+}
+header, footer {
+    background-color: #070607;
+}
+section, article, aside{
+    margin: 5px;
+    padding: 5px;
+}
+section {
+    background-color: #121013;
+}
+article {
+    background-color: #0b0a0b;
+}
+aside {
+    background-color: #070607;
+    margin: 5px 0px !important;
+}
+.embeddedlistl {
+    margin-left: 25px;
+}
+.lastm {
+    margin-bottom: 0px;
+}
+.lastp {
+    padding-bottom: 0px;
+}
+.firstm {
+    margin-top: 0px;
+}
+</style>
+<head>
+    <title>Кулинарный блог</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<header>
+    <h1>Кулинарный блог</h1>
+</header>
+    <nav class="nav">
+        <ol class="nav">
+            <li><a href="#rec">Рецепты/</a>
+                <ol class="nav embeddedlistl">
+                    <li><a href="#rec1">Рецепт №1</a></li>
+                    <li><a href="#rec2">Рецепт №2</a></li>
+                    <li><a href="#rec3">Рецепт №3</a></li>
+                    <li><a href="#rec4">Рецепт №4</a></li>
+                </ol>
+            </li>
+            <li><a href="#favrec">Любимые рецепты/</a>
+                <ol class="nav embeddedlistl">
+                    <li><a href="#favrec1">Рецепт №1</a></li>
+                    <li><a href="#favrec2">Рецепт №2</a></li>
+                </ol>
+            </li>
+            <li><a href="#adv">Советы</a></li>
+            <li><a href="#inf">Информация</a></li>
+       </ol>
+    </nav>
+    <main>
+        <br>
+        <section>
+            <h2>Информация о блоге</h2>
+            <article>
+                <p>Информация...</p>
+            </article>
+        </section>
+        <section>
+            <h2 id="rec"><a href="#rec">#</a> Рецепты</h2>
+            <article>
+                <h3 id="rec1"><a href="#rec1">#1</a> название..</h3>
+                <p>описание...</p>
+                <img src="img.img" alt="изображение блюда">
+                <aside>
+                    <h4>Ингридиенты</h4>
+                    <ul>
+                        <li>первый</li>
+                        <li>второй</li>
+                        <li>третий</li>
+                        <li>четвертый</li>
+                    </ul>
+                </aside>
+                <aside>
+                    <h4>Рецепт</h4>
+                    <ol>
+                        <li>первый</li>
+                        <li>второй</li>
+                        <li>третий</li>
+                        <li>четвертый</li>
+                    </ol>
+                </aside>
+                <aside>
+                    <h4>Подача</h4>
+                    <p class="lastm">подача...</p>
+                </aside>
+                <aside>
+                    <h4>Советы</h4>
+                    <p class="lastm">cоветы...</p>
+                </aside>
+            </article>
+            <article>
+                <h3 id="rec2"><a href="#rec2">#2</a> название..</h3>
+                <p>описание...</p>
+                <img src="img.img" alt="изображение блюда">
+                <aside>
+                    <h4>Ингридиенты</h4>
+                    <ul>
+                        <li>первый</li>
+                        <li>второй</li>
+                        <li>третий</li>
+                        <li>четвертый</li>
+                    </ul>
+                </aside>
+                <aside>
+                    <h4>Рецепт</h4>
+                    <ol>
+                        <li>первый</li>
+                        <li>второй</li>
+                        <li>третий</li>
+                        <li>четвертый</li>
+                    </ol>
+                </aside>
+                <aside>
+                    <h4>Подача</h4>
+                    <p class="lastm">подача...</p>
+                </aside>
+                <aside>
+                    <h4>Советы</h4>
+                    <p class="lastm">cоветы...</p>
+                </aside>
+            </article>
+            <article>
+                <h3 id="rec3"><a href="#rec3">#3</a> название..</h3>
+                <p>описание...</p>
+                <img src="img.img" alt="изображение блюда">
+                <aside>
+                    <h4>Ингридиенты</h4>
+                    <ul>
+                        <li>первый</li>
+                        <li>второй</li>
+                        <li>третий</li>
+                        <li>четвертый</li>
+                    </ul>
+                </aside>
+                <aside>
+                    <h4>Рецепт</h4>
+                    <ol>
+                        <li>первый</li>
+                        <li>второй</li>
+                        <li>третий</li>
+                        <li>четвертый</li>
+                    </ol>
+                </aside>
+                <aside>
+                    <h4>Подача</h4>
+                    <p class="lastm">подача...</p>
+                </aside>
+                <aside>
+                    <h4>Советы</h4>
+                    <p class="lastm">cоветы...</p>
+                </aside>
+            </article>
+        </section>
+        <section>
+            <h2 id="favrec"><a href="#favrec">#</a> Любимые рецепты</h2>
+            <article>
+                <h3 id="favrec1"><a href="#favrec1">#1</a> название..</h3>
+                <p>описание...</p>
+                <img src="img.img" alt="изображение блюда">
+                <aside>
+                    <h4>Ингридиенты</h4>
+                    <ul>
+                        <li>первый</li>
+                        <li>второй</li>
+                        <li>третий</li>
+                        <li>четвертый</li>
+                    </ul>
+                </aside>
+                <aside>
+                    <h4>Рецепт</h4>
+                    <ol>
+                        <li>первый</li>
+                        <li>второй</li>
+                        <li>третий</li>
+                        <li>четвертый</li>
+                    </ol>
+                </aside>
+                <aside>
+                    <h4>Подача</h4>
+                    <p class="lastm">подача...</p>
+                </aside>
+                <aside>
+                    <h4>Советы</h4>
+                    <p class="lastm">cоветы...</p>
+                </aside>
+            </article>
+            <article>
+                <h3 id="favrec2"><a href="#favrec2">#2</a> название..</h3>
+                <p>описание...</p>
+                <img src="img.img" alt="изображение блюда">
+                <aside>
+                    <h4>Ингридиенты</h4>
+                    <ul>
+                        <li>первый</li>
+                        <li>второй</li>
+                        <li>третий</li>
+                        <li>четвертый</li>
+                    </ul>
+                </aside>
+                <aside>
+                    <h4>Рецепт</h4>
+                    <ol>
+                        <li>первый</li>
+                        <li>второй</li>
+                        <li>третий</li>
+                        <li>четвертый</li>
+                    </ol>
+                </aside>
+                <aside>
+                    <h4>Подача</h4>
+                    <p class="lastm">подача...</p>
+                </aside>
+                <aside>
+                    <h4>Советы</h4>
+                    <p class="lastm">cоветы...</p>
+                </aside>
+            </article>
+        </section>
+        <section class="lastm">
+            <h2 id="adv"><a href="#adv">#</a> Советы</h2>
+            <p>советы...</p>
+        </section>
+    </main>
+    <footer id="inf">
+        <ol style="list-style: none; display: flex;">
+            <li style="margin: 0px 10px; margin-left: 20px;">информация:</li>
+            <li style="margin: 0px 10px;"><a href="https://google.com" target="_blank">ссылка</a></li>
+            <li style="margin: 0px 10px;"><a href="https://google.com" target="_blank">ссылка</a></li>
+            <li style="margin: 0px 10px;"><a href="https://google.com" target="_blank">ссылка</a></li>
+        </ol>
+    </footer>
+</body>
+</html>
