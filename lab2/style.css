@@ -1,0 +1,173 @@
+@font-face {
+  font-family: 'Gallant';
+  src: url('fonts/gallant.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-size: 24px;
+    font-family: "Gallant Raster Term", "IosevkaSlab", "Arial";
+   /* background-color: #000; */
+    background-color: #1e0000;
+    color: white;
+}
+
+h2,h3,h4,h5,h6 {
+    margin: 0px;
+    padding: 0px;
+}
+
+hr {
+    opacity: 0.5;
+    color: darkred;
+    margin: 10px 0px;
+}
+
+a {
+    color: inherit;
+}
+a:visited {
+    color: inherit;
+}
+
+ol, ul {
+    margin: 0px;
+}
+
+header {
+    margin: 0px;
+    padding: 20px;
+    background-color: darkred;
+}
+header ul, header ol {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+header ul li, header ol li {
+    margin: 0px 10px;
+    padding: 0px 25px;
+    background-color: red;
+    color: white;
+    /*color: #201247;*/
+}
+header ul li:first-child, header ol li:first-child {
+    margin-left: 0px;
+}
+header a {
+    color: inherit;
+}
+header a:visited {
+    color: inherit;
+}
+
+nav {
+    width: 200px;
+    padding: 20px;
+    float: left;
+    color: #201247;
+    background-color: darkred;
+}
+nav ul, nav ol {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+nav ul ul, nav ul ol, nav ol ul, nav ol ol {
+    margin-left: 20px;
+}
+nav ul ul li, nav ul ol li, nav ol ul li, nav ol ol li {
+    padding: 3px 0px;
+}
+nav a {
+    color: inherit;
+    background-color: red;
+}
+nav a:visited {
+    color: inherit;
+}
+nav > ul > li > a {
+    color: white !important;
+    text-decoration: none;
+}
+
+main {
+    margin-left: 200px;
+    padding: 20px
+}
+main > h1:first-child {
+    margin: 0px; /* replace /w h1 {margin:0} ? */
+    /*margin-top: 0px;
+    padding-top: 0px;*/
+}
+main p {
+    margin: 10px 0;
+}
+main ul, main ol {
+    list-style-position: outside;
+}
+.listnostyle {
+    list-style: none;
+    padding: 0px;
+}
+main section {
+    margin: 20px 0px;
+    padding: 10px;
+    background-color: #110000;
+}
+main section > p:first-child {
+    margin-top: 0px;
+}
+main section > p:last-child {
+    margin-bottom: 0px;
+}
+main section li > p:last-child {
+    margin-bottom: 0px;
+}
+.avatar {
+    float: left;
+    margin-right: 10px;
+    border: 5px solid #555;
+}
+
+footer {
+    margin: 0px;
+    padding: 20px;
+    color: white;
+    background-color: darkred;
+}
+footer ul, footer ol {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+footer ul li, footer ol li {
+    margin: 0px 10px;
+    padding: 0px 25px;
+    background-color: red;
+}
+footer ul li:first-child, footer ol li:first-child {
+    margin-left: 0px;
+}
+footer ul, footer ol {
+    margin: 20px 0;
+}
+footer ul:first-child, footer ol:first-child {
+    margin-top: 0px;
+}
+footer ul:last-child, footer ol:last-child {
+    margin-bottom: 0px;
+}
